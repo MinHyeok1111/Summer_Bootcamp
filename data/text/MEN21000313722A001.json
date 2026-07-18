@@ -1,0 +1,31 @@
+{
+  "inputText": [
+    {
+      "orgtext": "안녕하십니까? ㅇㅇ정신건강복지센터입니다."
+    }
+  ],
+  "dialogs": [
+    {
+      "audioPath": "Y:\\03.원천데이터\\03.정신건강복지센터\\02.자살위기개입\\01.가정불화\\MEN0003137\\MEN21000313722A001.wav"
+    }
+  ],
+  "info": [
+    {
+      "metadata": {
+        "title": "복지분야 콜상담데이터",
+        "category1": "정신건강복지센터",
+        "category2": "자살위기개입",
+        "category3": "가정불화",
+        "speaker_type": "상담사",
+        "speaker_id": "SPK086",
+        "speaker_age": "20대",
+        "speaker_sex": "여",
+        "sptime_all": "6.147",
+        "sptime_start": "0.911",
+        "sptime_end": "5.241",
+        "rec_device": "스마트폰",
+        "rec_place": "집"
+      }
+    }
+  ]
+}
