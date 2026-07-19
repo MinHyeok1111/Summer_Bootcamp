@@ -2,9 +2,9 @@
   "best_global_step": 56,
   "best_metric": 0.5405831336975098,
   "best_model_checkpoint": "/home/lmh/project/whisper/summer_bootcamp/minhyeok/whisper_small_lora_output/checkpoint-56",
-  "epoch": 30.0,
+  "epoch": 28.0,
   "eval_steps": 500,
-  "global_step": 60,
+  "global_step": 56,
   "is_hyper_param_search": false,
   "is_local_process_zero": true,
   "is_world_process_zero": true,
@@ -267,29 +267,6 @@
       "eval_samples_per_second": 26.986,
       "eval_steps_per_second": 17.991,
       "step": 56
-    },
-    {
-      "epoch": 29.0,
-      "eval_loss": 0.5414079427719116,
-      "eval_runtime": 0.1171,
-      "eval_samples_per_second": 25.624,
-      "eval_steps_per_second": 17.082,
-      "step": 58
-    },
-    {
-      "epoch": 30.0,
-      "grad_norm": 3.0163660049438477,
-      "learning_rate": 1.7543859649122807e-06,
-      "loss": 2.5241907119750975,
-      "step": 60
-    },
-    {
-      "epoch": 30.0,
-      "eval_loss": 0.5409435033798218,
-      "eval_runtime": 0.1124,
-      "eval_samples_per_second": 26.694,
-      "eval_steps_per_second": 17.796,
-      "step": 60
     }
   ],
   "logging_steps": 10,
@@ -304,12 +281,12 @@
         "should_evaluate": false,
         "should_log": false,
         "should_save": true,
-        "should_training_stop": true
+        "should_training_stop": false
       },
       "attributes": {}
     }
   },
-  "total_flos": 2.445520896e+17,
+  "total_flos": 2.2824861696e+17,
   "train_batch_size": 2,
   "trial_name": null,
   "trial_params": null
