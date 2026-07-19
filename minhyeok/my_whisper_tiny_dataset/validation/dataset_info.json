@@ -1,0 +1,112 @@
+{
+  "citation": "",
+  "description": "",
+  "features": {
+    "file_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "source_wav": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "source_transcript": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "crop_start": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "crop_end": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "duration_sec": {
+      "dtype": "float64",
+      "_type": "Value"
+    },
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "speakers": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "genders": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "requested_split": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "segments": {
+      "feature": {
+        "start": {
+          "dtype": "float64",
+          "_type": "Value"
+        },
+        "end": {
+          "dtype": "float64",
+          "_type": "Value"
+        },
+        "relative_start": {
+          "dtype": "float64",
+          "_type": "Value"
+        },
+        "relative_end": {
+          "dtype": "float64",
+          "_type": "Value"
+        },
+        "speaker": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "gender": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "text": {
+          "dtype": "string",
+          "_type": "Value"
+        }
+      },
+      "_type": "List"
+    },
+    "input_features": {
+      "feature": {
+        "feature": {
+          "dtype": "float32",
+          "_type": "Value"
+        },
+        "_type": "List"
+      },
+      "_type": "List"
+    },
+    "labels": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "List"
+    },
+    "num_audio_samples_16k": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "labels_length": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": ""
+}

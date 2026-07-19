@@ -1,0 +1,9 @@
+{
+  "model_id": "openai/whisper-tiny",
+  "language": "ko",
+  "task": "transcribe",
+  "n_mels": 80,
+  "train_count": 25,
+  "development_count": 3,
+  "validation_count": 3
+}
